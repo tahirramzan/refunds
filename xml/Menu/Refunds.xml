@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/favcolor</path>
+    <page_callback>CRM_Refunds_Form_FavoriteColor</page_callback>
+    <title>FavoriteColor</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/thanks</path>
+    <page_callback>CRM_Refunds_Page_Thanks</page_callback>
+    <title>Thanks</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/refunds</path>
+    <page_callback>CRM_Refunds_Form_Refunds</page_callback>
+    <title>Refunds</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
